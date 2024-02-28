@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UFT-8">
+    <META NAME="VIWEPORT" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/Style.css')}}">
+</head>
+<body>
+<div class="container">
+    <h1>REGISTRAR USUARIOS</h1>
+    <form> class="formulario" method="POST" action="/Registrar"
+        <fieldset>
+            <ul>
+                <li>
+                    <label>Nombre:</label>
+                    <input type="text" required name="nombre">
+                </li>
+                <li>
+                    <label>Apellido:</label>
+                    <input type="text" required name="apellido">
+                </li>
+                <li>
+                    <label>Email:</label>
+                    <input type="text" required name="email">
+                </li>
+                <li>
+                    <label>Direccion:</label>
+                    <input type="text" required name="direccion">
+                </li>
+                <li>
+                    <label>Telefono:</label>
+                    <input type="text" required name="telefono">
+                </li>
+                <li>
+                    <label>Usuario:</label>
+                    <input type="text" required name="usuario">
+                </li>
+                <li>
+                    <label>Contraseña:</label>
+                    <input type="text" required name="Contrasena">
+                </li>
+    
+              </ul>
+        </fieldset>
+       
+    </form>
+</div>
+</body>
+</html>
